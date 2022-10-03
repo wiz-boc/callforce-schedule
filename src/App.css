@@ -50,6 +50,7 @@
   border: 0;
   background-color: #f1af71;
   cursor: pointer;
+  margin-bottom: 10px;
 }
 
 .list-item {
@@ -147,4 +148,30 @@ button:focus {
   text-align: center;
   margin-top: 3rem;
   padding: 1rem 2rem;
+}
+
+.calenderData {
+  display: flex;
+  flex-direction: row;
+}
+
+/* .calenderdata:first-child {
+  flex-basis: 1 1 auto;
+  color: #ff6c6c;
+} */
+.TimeColumn {
+  width: 50px;
+}
+
+.columnMain {
+  background-color: white;
+}
+
+.HeaderItem {
+  background-color: red;
+}
+
+.ErrorMessage {
+  font-style: italic;
+  color: #ff6c6c;
 }

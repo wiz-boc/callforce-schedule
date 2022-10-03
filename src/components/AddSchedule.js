@@ -1,6 +1,6 @@
 import React from "react";
 
-const Form = ({ onOpen }) => {
+const AddSchedule = ({ onOpen }) => {
   return (
     <div>
       <div className="btn-form">
@@ -12,4 +12,4 @@ const Form = ({ onOpen }) => {
   );
 };
 
-export default Form;
+export default AddSchedule;
